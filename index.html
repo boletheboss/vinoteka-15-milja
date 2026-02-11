@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="sr" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vinoteka 15 Milja - Premium wine shop in Loznica, Serbia. Discover curated Serbian and international wines.">
+  <meta name="keywords" content="vinoteka, wine shop, Loznica, Serbian wine, vino, vinoteka 15 milja">
+  <meta name="author" content="Vinoteka 15 Milja">
+  <meta property="og:title" content="Vinoteka 15 Milja | Premium Wine Shop in Loznica">
+  <meta property="og:description" content="Discover curated Serbian and international wines at Vinoteka 15 Milja, Loznica's premier wine boutique.">
+  <meta property="og:type" content="website">
+  <title>Vinoteka 15 Milja | Premium Wine Shop in Loznica</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============================================
+       AGE VERIFICATION MODAL (18+)
+       ============================================ -->
+  <div class="age-gate-overlay" id="age-gate">
+    <div class="age-gate-modal">
+      <div class="age-gate-icon">&#127863;</div>
+      <div class="age-gate-logo">
+        <span class="age-gate-name">Vinoteka</span>
+        <span class="age-gate-sub">15 Milja</span>
+      </div>
+      <h2 class="age-gate-title">Dobrodošli</h2>
+      <p class="age-gate-text">Ovaj sajt sadrži informacije o alkoholnim pićima.<br>Da li imate 18 ili više godina?</p>
+      <div class="age-gate-buttons">
+        <button class="age-gate-btn age-gate-yes" id="age-gate-yes">Da, imam 18+</button>
+        <button class="age-gate-btn age-gate-no" id="age-gate-no">Ne, nemam</button>
+      </div>
+      <p class="age-gate-note">Ulaskom na sajt potvrđujete da imate zakonski dozvoljene godine za kupovinu alkohola.</p>
+    </div>
+  </div>
+
+  <!-- ============================================
+       NAVIGATION
+       ============================================ -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="logo">
+        <span class="logo-icon">&#127863;</span>
+        <div class="logo-text">
+          <span class="logo-name">Vinoteka</span>
+          <span class="logo-sub">15 Milja</span>
+        </div>
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Početna</a></li>
+          <li><a href="#about" class="nav-link">O nama</a></li>
+          <li><a href="#wines" class="nav-link">Vina</a></li>
+          <li><a href="#contact" class="nav-link">Kontakt</a></li>
+        </ul>
+      </nav>
+
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============================================
+       HERO SECTION
+       ============================================ -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-tagline animate-on-scroll">Loznica, Srbija</p>
+      <h1 class="hero-title animate-on-scroll">
+        Vinoteka<br><span class="hero-accent">15 Milja</span>
+      </h1>
+      <p class="hero-description animate-on-scroll">
+        Otkrijte pažljivo odabranu kolekciju srpskih i svetskih vina u srcu Loznice.
+      </p>
+      <div class="hero-cta animate-on-scroll">
+        <a href="#wines" class="btn btn-primary">Pogledaj vina</a>
+        <a href="#contact" class="btn btn-outline">Posetite nas</a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span>Skroluj</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       INTRO / WELCOME SECTION
+       ============================================ -->
+  <section class="intro" id="intro">
+    <div class="container">
+      <div class="intro-grid">
+        <div class="intro-image animate-on-scroll">
+          <div class="intro-image-placeholder">
+            <span class="placeholder-icon">&#127815;</span>
+            <span class="placeholder-text">Wine Interior</span>
+          </div>
+          <div class="intro-image-accent"></div>
+        </div>
+        <div class="intro-content animate-on-scroll">
+          <span class="section-label">Dobrodošli</span>
+          <h2 class="section-title">Mesto gde se vino<br>sreće sa <em>strašću</em></h2>
+          <p class="intro-text">
+            Vinoteka 15 Milja je više od prodavnice vina &mdash; to je prostor posvećen kulturi vina,
+            gde svaka boca priča svoju priču. Od najfinijih srpskih sorti do pažljivo odabranih
+            svetskih etiketa, naša kolekcija je kreirana za prave ljubitelje vina.
+          </p>
+          <p class="intro-text">
+            Smješteni u srcu Loznice, pozivamo vas da otkrijete savršeno vino za svaku priliku.
+          </p>
+          <div class="intro-stats">
+            <div class="stat">
+              <span class="stat-number">200+</span>
+              <span class="stat-label">Etiketa</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">50+</span>
+              <span class="stat-label">Vinarija</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">15+</span>
+              <span class="stat-label">Zemalja</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       FEATURED WINES (dynamically populated)
+       ============================================ -->
+  <section class="featured" id="featured">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-label">Preporuka kuće</span>
+        <h2 class="section-title">Istaknuta vina</h2>
+        <p class="section-subtitle">Ručno odabrani favoriti naše vinoteke</p>
+      </div>
+      <div class="featured-grid" id="featured-grid"></div>
+      <div class="featured-cta animate-on-scroll">
+        <a href="#wines" class="btn btn-secondary">Pogledaj celokupnu ponudu</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       ABOUT US SECTION
+       ============================================ -->
+  <section class="about" id="about">
+    <div class="about-bg-pattern"></div>
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-content animate-on-scroll">
+          <span class="section-label">O nama</span>
+          <h2 class="section-title">Naša priča</h2>
+          <p class="about-text">
+            Vinoteka 15 Milja nastala je iz ljubavi prema vinu i želje da Loznici podarimo
+            prostor u kome se kultura vina slavi na pravi način. Naš naziv simbolizuje putovanje
+            &mdash; svako vino prešlo je svoj put od vinograda do vaše čaše.
+          </p>
+          <p class="about-text">
+            Sa strašću biramo svaku etiketu u našoj kolekciji. Sarađujemo sa najboljim srpskim
+            vinarijama &mdash; od Župe i Fruške Gore do Negotina &mdash; ali i sa renomiranim
+            proizvođačima iz Francuske, Italije, Španije i širom sveta.
+          </p>
+          <p class="about-text">
+            Verujemo da je vino više od pića &mdash; to je iskustvo, priča i tradicija. Bilo
+            da ste iskusni poznavalac ili tek otkrivate svet vina, naš tim je tu da vam pomogne
+            da pronađete savršenu bocu.
+          </p>
+
+          <div class="about-values">
+            <div class="value-item">
+              <span class="value-icon">&#9830;</span>
+              <div>
+                <h4>Kvalitet</h4>
+                <p>Samo pažljivo odabrana vina ulaze u našu kolekciju.</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <span class="value-icon">&#9830;</span>
+              <div>
+                <h4>Znanje</h4>
+                <p>Naš tim vas vodi kroz svet vina sa stručnošću i strašću.</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <span class="value-icon">&#9830;</span>
+              <div>
+                <h4>Tradicija</h4>
+                <p>Čuvamo i promovišemo bogatu vinsku tradiciju Srbije.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-images animate-on-scroll">
+          <div class="about-image-main">
+            <div class="intro-image-placeholder">
+              <span class="placeholder-icon">&#127871;</span>
+              <span class="placeholder-text">Wine Cellar</span>
+            </div>
+          </div>
+          <div class="about-image-secondary">
+            <div class="intro-image-placeholder">
+              <span class="placeholder-icon">&#127815;</span>
+              <span class="placeholder-text">Vineyard</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       WINE SELECTION SECTION
+       ============================================ -->
+  <section class="wines-section" id="wines">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-label">Naša ponuda</span>
+        <h2 class="section-title">Naša kolekcija</h2>
+        <p class="section-subtitle">Preko 350 pažljivo odabranih vina, rakija i delikatesa</p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="wine-filters animate-on-scroll">
+        <button class="filter-btn active" data-filter="all">Sve</button>
+        <button class="filter-btn" data-filter="red">Crvena</button>
+        <button class="filter-btn" data-filter="white">Bela</button>
+        <button class="filter-btn" data-filter="rose">Roze</button>
+        <button class="filter-btn" data-filter="sparkling">Penušava</button>
+        <button class="filter-btn" data-filter="rakija">Rakije</button>
+        <button class="filter-btn" data-filter="spirits">Žestoko</button>
+        <button class="filter-btn" data-filter="delicacy">Delikatesi</button>
+      </div>
+
+      <!-- Origin Toggle -->
+      <div class="origin-toggle animate-on-scroll">
+        <button class="origin-btn active" data-origin="all">Sve zemlje</button>
+        <button class="origin-btn" data-origin="rs">Srbija</button>
+        <button class="origin-btn" data-origin="hr">Hrvatska</button>
+        <button class="origin-btn" data-origin="ba">BiH</button>
+        <button class="origin-btn" data-origin="it">Italija</button>
+        <button class="origin-btn" data-origin="fr">Francuska</button>
+        <button class="origin-btn" data-origin="es">Španija</button>
+        <button class="origin-btn" data-origin="other">Ostale</button>
+      </div>
+
+      <!-- Search -->
+      <div class="wine-search animate-on-scroll">
+        <input type="text" id="wine-search" placeholder="Pretraži po nazivu ili vinariji..." autocomplete="off">
+      </div>
+
+      <!-- Count -->
+      <div class="results-count" id="results-count"></div>
+
+      <!-- Wines Grid (dynamically populated) -->
+      <div class="wines-grid" id="wines-grid"></div>
+
+      <!-- No results message -->
+      <div class="no-results" id="no-results" style="display: none;">
+        <span class="no-results-icon">&#127863;</span>
+        <p>Nema vina u ovoj kategoriji. Pokušajte drugu kombinaciju filtera.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       TESTIMONIAL / QUOTE SECTION
+       ============================================ -->
+  <section class="quote-section">
+    <div class="container">
+      <blockquote class="wine-quote animate-on-scroll">
+        <span class="quote-mark">&ldquo;</span>
+        <p>Vino je poezija u boci.</p>
+        <cite>&mdash; Clifton Fadiman</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- ============================================
+       CONTACT SECTION
+       ============================================ -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-label">Kontakt</span>
+        <h2 class="section-title">Posetite nas</h2>
+        <p class="section-subtitle">Dođite i otkrijte svoj novi omiljeni vinski kutak u Loznici</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info animate-on-scroll">
+          <div class="contact-card">
+            <div class="contact-item">
+              <span class="contact-icon">&#128205;</span>
+              <div>
+                <h4>Adresa</h4>
+                <p>Kneza Miloša bb<br>15300 Loznica, Srbija</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <span class="contact-icon">&#128222;</span>
+              <div>
+                <h4>Telefon</h4>
+                <p><a href="tel:+381151234567">+381 15 123 4567</a></p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <span class="contact-icon">&#9993;</span>
+              <div>
+                <h4>Email</h4>
+                <p><a href="mailto:info@vinoteka15milja.rs">info@vinoteka15milja.rs</a></p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <span class="contact-icon">&#128336;</span>
+              <div>
+                <h4>Radno vreme</h4>
+                <p>Pon &ndash; Pet: 09:00 &ndash; 20:00<br>
+                   Sub: 09:00 &ndash; 16:00<br>
+                   Ned: Zatvoreno</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Instagram">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Facebook">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-map animate-on-scroll">
+          <div class="map-placeholder">
+            <span class="map-icon">&#128506;</span>
+            <p>Google Maps</p>
+            <span class="map-subtext">Loznica, Srbija</span>
+            <!-- Replace this div with actual Google Maps embed:
+            <iframe
+              src="https://www.google.com/maps/embed?pb=YOUR_EMBED_URL"
+              width="100%"
+              height="100%"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy">
+            </iframe>
+            -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       FOOTER
+       ============================================ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="logo footer-logo">
+            <span class="logo-icon">&#127863;</span>
+            <div class="logo-text">
+              <span class="logo-name">Vinoteka</span>
+              <span class="logo-sub">15 Milja</span>
+            </div>
+          </a>
+          <p class="footer-tagline">Vaš vinski kutak u srcu Loznice.</p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Navigacija</h4>
+          <ul>
+            <li><a href="#home">Početna</a></li>
+            <li><a href="#about">O nama</a></li>
+            <li><a href="#wines">Vina</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Ponuda</h4>
+          <ul>
+            <li><a href="#wines" data-filter-link="red">Crvena vina</a></li>
+            <li><a href="#wines" data-filter-link="white">Bela vina</a></li>
+            <li><a href="#wines" data-filter-link="rose">Roze vina</a></li>
+            <li><a href="#wines" data-filter-link="rakija">Rakije</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Kontakt</h4>
+          <p>Kneza Miloša bb<br>15300 Loznica, Srbija</p>
+          <p><a href="tel:+381151234567">+381 15 123 4567</a></p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Vinoteka 15 Milja. Sva prava zadržana.</p>
+        <p class="footer-note">Uživajte u vinu odgovorno. Zabranjena prodaja alkohola licima mlađim od 18 godina.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="js/wines-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
