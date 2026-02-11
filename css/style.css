@@ -246,7 +246,8 @@ body.age-locked {
 
 @media (max-width: 480px) {
   .age-gate-modal {
-    padding: 40px 28px;
+    padding: 36px 24px;
+    max-width: 90%;
   }
 
   .age-gate-buttons {
@@ -254,8 +255,25 @@ body.age-locked {
     gap: 12px;
   }
 
+  .age-gate-btn {
+    padding: 14px 24px;
+    font-size: var(--fs-sm);
+  }
+
   .age-gate-name {
     font-size: var(--fs-xl);
+  }
+
+  .age-gate-icon {
+    font-size: 3rem;
+  }
+
+  .age-gate-title {
+    font-size: var(--fs-lg);
+  }
+
+  .age-gate-text {
+    font-size: var(--fs-sm);
   }
 }
 
@@ -1526,6 +1544,16 @@ button {
     grid-template-columns: 1fr 1fr;
     gap: 32px;
   }
+
+  /* Map on tablet */
+  .map-container {
+    min-height: 380px;
+  }
+
+  /* Better spacing */
+  .section-header {
+    margin-bottom: 40px;
+  }
 }
 
 /* -- Mobile Large (max-width: 768px) -- */
@@ -1624,6 +1652,37 @@ button {
     gap: 20px;
   }
 
+  /* Wine cards on mobile */
+  .wine-card {
+    max-width: 100%;
+  }
+
+  .wine-card-body {
+    padding: 16px 20px 20px;
+  }
+
+  .wine-name {
+    font-size: var(--fs-lg);
+  }
+
+  /* Better button sizing for touch */
+  .btn {
+    padding: 12px 28px;
+    font-size: var(--fs-xs);
+    min-height: 44px;
+  }
+
+  .filter-btn,
+  .origin-btn {
+    min-height: 40px;
+  }
+
+  /* Navigation improvements */
+  .nav-link {
+    font-size: var(--fs-lg);
+    padding: 8px 0;
+  }
+
   .footer-grid {
     grid-template-columns: 1fr;
     gap: 32px;
@@ -1656,6 +1715,15 @@ button {
 
   .intro-stats {
     gap: 24px;
+  }
+
+  /* Map responsive */
+  .map-container {
+    min-height: 320px;
+  }
+
+  .contact-map {
+    margin-top: 24px;
   }
 }
 
@@ -1716,6 +1784,31 @@ button {
     padding: 24px;
   }
 
+  /* Map on small mobile */
+  .map-container {
+    min-height: 280px;
+  }
+
+  .contact {
+    padding: 60px 0;
+  }
+
+  .contact-grid {
+    gap: 32px;
+  }
+
+  .contact-icon {
+    font-size: 20px;
+  }
+
+  .contact-item {
+    padding: 12px 0;
+  }
+
+  .section-header {
+    margin-bottom: 32px;
+  }
+
   .back-to-top {
     bottom: 20px;
     right: 20px;
@@ -1725,5 +1818,79 @@ button {
 
   .quote-section {
     padding: 60px 0;
+  }
+
+  /* Hero adjustments */
+  .hero {
+    min-height: 90vh;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+
+  .hero-description {
+    font-size: var(--fs-base);
+    padding: 0 8px;
+  }
+
+  .hero-tagline {
+    font-size: 10px;
+    letter-spacing: 3px;
+  }
+
+  /* Section titles */
+  .section-title {
+    font-size: var(--fs-2xl);
+    line-height: 1.3;
+  }
+
+  .section-subtitle {
+    font-size: var(--fs-sm);
+  }
+
+  /* Better section spacing */
+  .intro,
+  .featured,
+  .about,
+  .wines-section {
+    padding: 60px 0;
+  }
+}
+
+/* -- Extra Small Devices (max-width: 360px) -- */
+@media (max-width: 360px) {
+  .container {
+    padding: 0 12px;
+  }
+
+  .hero-title {
+    font-size: 1.75rem;
+  }
+
+  .section-title {
+    font-size: var(--fs-xl);
+  }
+
+  .wine-card-body {
+    padding: 14px 16px 16px;
+  }
+
+  .contact-card {
+    padding: 20px;
+  }
+
+  .map-container {
+    min-height: 250px;
+  }
+
+  .btn {
+    padding: 12px 24px;
+    max-width: 100%;
+  }
+
+  .age-gate-modal {
+    padding: 28px 20px;
   }
 }
