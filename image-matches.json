@@ -1,0 +1,482 @@
+[
+  {
+    "productName": "Aleksandrović Harizma",
+    "imageFile": "aleksandrović-harizma.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Aleksandrović Prokupac",
+    "imageFile": "aleksandrović-prokupac.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Aleksandrović Regent",
+    "imageFile": "aleksandrović-regent-reserve.png",
+    "confidence": "contains"
+  },
+  {
+    "productName": "Aleksandrović Rodoslov",
+    "imageFile": "aleksandrović-rodoslov-magnum-3l.png",
+    "confidence": "contains"
+  },
+  {
+    "productName": "Aleksandrović Trijumf",
+    "imageFile": "aleksandrović-trijumf.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Aleksandrović Trijumf Gold",
+    "imageFile": "aleksandrović-trijumf-gold.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Aleksandrović Trijumf Noir",
+    "imageFile": "aleksandrović-trijumf-noir-penušavac.png",
+    "confidence": "contains"
+  },
+  {
+    "productName": "Aleksandrović Trijumf Teroir",
+    "imageFile": "aleksandrović-trijumf-terroir.png",
+    "confidence": "near-exact"
+  },
+  {
+    "productName": "Aleksandrović Varijanta",
+    "imageFile": "aleksandrović-varijanta.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Aleksić Barbara",
+    "imageFile": "aleksić-barbara-rose.png",
+    "confidence": "contains"
+  },
+  {
+    "productName": "Aleksić Kardaš",
+    "imageFile": "aleksić-kardaš.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Aleksić Kardaš Limited",
+    "imageFile": "aleksić-kardaš-limited.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Aleksić Žuti Cvet",
+    "imageFile": "aleksić-žuti-cvet.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Belo Brdo Chardonnay",
+    "imageFile": "belo-brdo-chardonnay.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Bermet Crveni Kis",
+    "imageFile": "kiš-bermet-crveni.png",
+    "confidence": "winery-contained"
+  },
+  {
+    "productName": "Bjelica Babaroga",
+    "imageFile": "bjelica-babaroga.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Bjelica Babaroga Crvena",
+    "imageFile": "bjelica-babaroga-crvena.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Bjelica Babaroga Penušavo",
+    "imageFile": "bjelica-babaroga-penušavac.png",
+    "confidence": "near-exact"
+  },
+  {
+    "productName": "Bjelica Graffiti",
+    "imageFile": "bjelica-graffiti-crveno.png",
+    "confidence": "contains"
+  },
+  {
+    "productName": "Bjelica Saga",
+    "imageFile": "bjelica-saga.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Budimir Boje Lila",
+    "imageFile": "budimir-prokupac-boje-lila.png",
+    "confidence": "winery-contains"
+  },
+  {
+    "productName": "Budimir Kao Da Si Anđeo",
+    "imageFile": "budimir-i-kao-da-si-anđeo.png",
+    "confidence": "near-exact"
+  },
+  {
+    "productName": "Budimir Projekat IKS",
+    "imageFile": "budimir-projekat-x.png",
+    "confidence": "exact-stripped"
+  },
+  {
+    "productName": "Budimir Tamjanika",
+    "imageFile": "budimir-tamjanika.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Budimir Tamjanika Vera",
+    "imageFile": "budimir-tamjanika-vera.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Chichateau Chardonnay",
+    "imageFile": "chichateau-chichardonnay.png",
+    "confidence": "winery-contains"
+  },
+  {
+    "productName": "Chichateau Fabula Lagum",
+    "imageFile": "chichateau-fabula-lagum.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Chichateau Fabula Mala a Bela",
+    "imageFile": "chichateau-fabula-mala-a-bela.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Chichateau Pink Punk",
+    "imageFile": "chichateau-pink-punk.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Čilić Cabernet-Merlot",
+    "imageFile": "cilić-crni-vrh-cabernet-&-merlot.png",
+    "confidence": "word-overlap"
+  },
+  {
+    "productName": "Deurić Aksiom Beli",
+    "imageFile": "deurić-aksiom-beli.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Deurić Aksiom Crveni",
+    "imageFile": "deurić-aksiom-crveni.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Deurić Chardonnay",
+    "imageFile": "deurić-chardonnay-classic.png",
+    "confidence": "contains"
+  },
+  {
+    "productName": "Deurić Gorska Tamjanika",
+    "imageFile": "deurić-gorska-tamjanika.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Deurić Merlot",
+    "imageFile": "deurić-princeps-merlot.png",
+    "confidence": "winery-contains"
+  },
+  {
+    "productName": "Deurić Pinot Noir",
+    "imageFile": "deurić-pinot-noir.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Deurić Probus",
+    "imageFile": "deurić-probus-276.png",
+    "confidence": "contains"
+  },
+  {
+    "productName": "Doja Prokupac",
+    "imageFile": "doja-prokupac.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Erdevik Bella Novela",
+    "imageFile": "erdevik-bella-novela.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Erdevik Grand Trianon",
+    "imageFile": "erdevik-grand-trianon.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Erdevik Marlon Delon",
+    "imageFile": "erdevik-marlon-delon.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Erdevik Omnibus Lector",
+    "imageFile": "erdevik-omnibus-lector-chardonnay.png",
+    "confidence": "contains"
+  },
+  {
+    "productName": "Erdevik Rose Nostra",
+    "imageFile": "erdevik-roza-nostra.png",
+    "confidence": "near-exact-stripped"
+  },
+  {
+    "productName": "Erdevik Rose Nostra 1.5L",
+    "imageFile": "erdevik-roza-nostra-1.5l.png",
+    "confidence": "near-exact"
+  },
+  {
+    "productName": "Erdevik Stifler's Mom",
+    "imageFile": "erdevik-stifler's-mom-shiraz.png",
+    "confidence": "contains"
+  },
+  {
+    "productName": "Erdevik Trianon",
+    "imageFile": "erdevik-trianon.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Jeremić Kanon",
+    "imageFile": "jeremić-kanon.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Jeremić Merlot Terroir",
+    "imageFile": "jeremić-merlot-terroire.png",
+    "confidence": "near-exact"
+  },
+  {
+    "productName": "Jeremić Sonata",
+    "imageFile": "jeremić-sonata.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Jović Cabernet Sauvignon",
+    "imageFile": "jović-cabernet-sauvignon.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Jović Chardonnay",
+    "imageFile": "jović-chardonnay.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Jović Dionizije",
+    "imageFile": "jović-dionizije.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Jović Vranac",
+    "imageFile": "jović-vranac-potrkanjski.png",
+    "confidence": "contains"
+  },
+  {
+    "productName": "Kovačević Aurelius",
+    "imageFile": "kovačević-aurelius.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Kovačević Aurelius S",
+    "imageFile": "kovačević-aurelius-s-1,5-l.png",
+    "confidence": "exact-stripped"
+  },
+  {
+    "productName": "Kovačević Chardonnay",
+    "imageFile": "kovačević-chardonnay.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Kovačević Fresco Bianco",
+    "imageFile": "kovačević-fresco-bianco.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Kovačević Sauvignon",
+    "imageFile": "kovačević-sauvignon-edicija-s.png",
+    "confidence": "contains"
+  },
+  {
+    "productName": "Lastar Tamjanika",
+    "imageFile": "lastar-tamjanika.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Legat Do Neba i Nazad",
+    "imageFile": "đurđevića-legat-do-neba-i-nazad.png",
+    "confidence": "contains"
+  },
+  {
+    "productName": "Legat Otisak",
+    "imageFile": "đurđevića-legat-otisak.png",
+    "confidence": "contains"
+  },
+  {
+    "productName": "Magaza Merlot",
+    "imageFile": "magaza-merlot.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Manastir Bukovo Filigran GAME",
+    "imageFile": "bukovo-filigran-game.png",
+    "confidence": "contained-by"
+  },
+  {
+    "productName": "Matalj Kremen",
+    "imageFile": "matalj-kremen-1,5l.png",
+    "confidence": "exact-stripped"
+  },
+  {
+    "productName": "Matalj Kremen Kamen",
+    "imageFile": "matalj-kremen-kamen.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Matalj Zemna Reserva",
+    "imageFile": "matalj-zemna.png",
+    "confidence": "contained-by"
+  },
+  {
+    "productName": "Matijašević Cukundeda",
+    "imageFile": "matijašević-čukundeda.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Matijašević SoviNoa",
+    "imageFile": "matijašević-sovinoa.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Matijašević SoviNoa Fumé Blanc",
+    "imageFile": "matijašević-sovinoa-fume-blanc.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Matijašević Tri Doline",
+    "imageFile": "matijašević-merlot-tri-doline.png",
+    "confidence": "winery-contains"
+  },
+  {
+    "productName": "Milanović Probus",
+    "imageFile": "milanović-probus.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Milanović Sila",
+    "imageFile": "milanović-sila.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Pusula Sauvignon Blanc",
+    "imageFile": "pusula-sauvignon-blanc.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Pusula Traminac",
+    "imageFile": "pusula-traminac.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Radovanović Cabernet",
+    "imageFile": "radovanović-cabernet-sauvignon-reserve.png",
+    "confidence": "contains"
+  },
+  {
+    "productName": "Radovanović Chardonnay",
+    "imageFile": "radovanović-chardonnay-classique.png",
+    "confidence": "contains"
+  },
+  {
+    "productName": "Radovanović Chardonnay Selekcija",
+    "imageFile": "radovanović-chardonnay-selekcija.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Radovanović Rose",
+    "imageFile": "radovanović-rose.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Radovanović Sauvignon",
+    "imageFile": "radovanović-cabernet-sauvignon-classique.png",
+    "confidence": "winery-contains"
+  },
+  {
+    "productName": "Rnjak Chardonnay",
+    "imageFile": "rnjak-chardonnay.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Rnjak Cuvée De Rgnac",
+    "imageFile": "rnjak-cuvee-de-rgnac.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Rnjak Pinot Noir",
+    "imageFile": "rnjak-pinot-noir.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Rnjak Sauvignon",
+    "imageFile": "rnjak-sauvignon-blanc.png",
+    "confidence": "contains"
+  },
+  {
+    "productName": "Spasić Tamjanika",
+    "imageFile": "spasić-tamnjanika.png",
+    "confidence": "near-exact"
+  },
+  {
+    "productName": "Temet Tri Morave Crveno",
+    "imageFile": "temet-tri-morave-rezerva-crveno.png",
+    "confidence": "word-overlap"
+  },
+  {
+    "productName": "Tonković Kadarka Allegro",
+    "imageFile": "tonković-kadarka-allegro.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Tonković Kadarka Fantazija",
+    "imageFile": "tonković-kadarka-fantazija.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Virtus Marselan",
+    "imageFile": "virtus-marselan.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Virtus Morava",
+    "imageFile": "virtus-morava.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Virtus Pinot Grigio",
+    "imageFile": "virtus-pinot-grigio.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Virtus Prokupac",
+    "imageFile": "virtus-prokupac.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Zvonko Bogdan 8 Tamburasa",
+    "imageFile": "zvonko-bogdan-8-tamburaša.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Zvonko Bogdan Cuvée No1",
+    "imageFile": "zvonko-bogdan-cuvee-no.1.png",
+    "confidence": "near-exact"
+  },
+  {
+    "productName": "Zvonko Bogdan Pinot Blanc",
+    "imageFile": "zvonko-bogdan-pinot-blanc.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Zvonko Bogdan Rose Sec",
+    "imageFile": "zvonko-bogdan-rose-sec.png",
+    "confidence": "exact"
+  },
+  {
+    "productName": "Zvonko Bogdan Život Teče",
+    "imageFile": "zvonko-bogdan-život-teče.png",
+    "confidence": "exact"
+  }
+]

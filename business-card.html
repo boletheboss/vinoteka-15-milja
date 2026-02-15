@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinoteka 15 Milja - Business Card</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color: #2C2C2C;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 40px 20px;
+            gap: 60px;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            color: #C9A96E;
+            font-size: 1.5rem;
+            font-weight: 400;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+
+        .card-label {
+            color: #7A7A7A;
+            font-size: 0.75rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+            text-align: center;
+        }
+
+        .card-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+        }
+
+        /* ===== FRONT SIDE ===== */
+        .card-front {
+            width: 3.5in;
+            height: 2in;
+            background: linear-gradient(145deg, #3E1112 0%, #5C1A1B 40%, #722F37 100%);
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(201, 169, 110, 0.15);
+        }
+
+        .card-front::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle at 30% 40%, rgba(201, 169, 110, 0.06) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        /* Subtle corner accents */
+        .corner-accent {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            border-color: rgba(201, 169, 110, 0.25);
+            border-style: solid;
+        }
+        .corner-accent.top-left {
+            top: 14px; left: 14px;
+            border-width: 1px 0 0 1px;
+        }
+        .corner-accent.top-right {
+            top: 14px; right: 14px;
+            border-width: 1px 1px 0 0;
+        }
+        .corner-accent.bottom-left {
+            bottom: 14px; left: 14px;
+            border-width: 0 0 1px 1px;
+        }
+        .corner-accent.bottom-right {
+            bottom: 14px; right: 14px;
+            border-width: 0 1px 1px 0;
+        }
+
+        .front-content {
+            text-align: center;
+            z-index: 1;
+        }
+
+        .logo-image {
+            width: 160px;
+            margin-bottom: 4px;
+            filter: brightness(1.1);
+        }
+
+        .front-tagline {
+            font-family: 'Lato', sans-serif;
+            color: rgba(201, 169, 110, 0.7);
+            font-size: 7px;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            font-weight: 300;
+        }
+
+        /* ===== BACK SIDE ===== */
+        .card-back {
+            width: 3.5in;
+            height: 2in;
+            background: linear-gradient(170deg, #FAF6F0 0%, #F5EDE3 100%);
+            border-radius: 12px;
+            display: flex;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(201, 169, 110, 0.2);
+        }
+
+        /* Burgundy left stripe */
+        .back-stripe {
+            width: 6px;
+            background: linear-gradient(180deg, #5C1A1B, #722F37, #C9A96E);
+            flex-shrink: 0;
+        }
+
+        .back-content {
+            flex: 1;
+            padding: 18px 20px 18px 18px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .back-header {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+        }
+
+        .back-name {
+            font-family: 'Playfair Display', serif;
+            color: #5C1A1B;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 1.2;
+        }
+
+        .back-title {
+            font-family: 'Lato', sans-serif;
+            color: #C9A96E;
+            font-size: 7px;
+            letter-spacing: 2.5px;
+            text-transform: uppercase;
+            font-weight: 400;
+            margin-top: 3px;
+        }
+
+        .back-logo-small {
+            width: 50px;
+            opacity: 0.85;
+        }
+
+        .back-divider {
+            width: 35px;
+            height: 1px;
+            background: linear-gradient(90deg, #C9A96E, transparent);
+            margin: 0;
+        }
+
+        .back-details {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .detail-row {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .detail-icon {
+            width: 12px;
+            height: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .detail-icon svg {
+            width: 11px;
+            height: 11px;
+            fill: none;
+            stroke: #C9A96E;
+            stroke-width: 1.5;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+
+        .detail-text {
+            font-family: 'Lato', sans-serif;
+            color: #3A3A3A;
+            font-size: 8px;
+            font-weight: 400;
+            letter-spacing: 0.3px;
+        }
+
+        .detail-text a {
+            color: #3A3A3A;
+            text-decoration: none;
+        }
+
+        /* Bottom decorative vine pattern */
+        .card-back::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 80px;
+            height: 80px;
+            background: radial-gradient(circle at 100% 100%, rgba(201, 169, 110, 0.06) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        /* ===== PRINT STYLES ===== */
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+                gap: 30px;
+            }
+            h1, .card-label {
+                display: none;
+            }
+            .card-front, .card-back {
+                box-shadow: none;
+                border: 1px solid #ddd;
+                page-break-inside: avoid;
+            }
+        }
+
+        /* ===== INSTRUCTIONS ===== */
+        .print-info {
+            color: #7A7A7A;
+            font-size: 0.7rem;
+            text-align: center;
+            max-width: 400px;
+            line-height: 1.6;
+            letter-spacing: 0.3px;
+        }
+
+        .print-info strong {
+            color: #C9A96E;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Business Card</h1>
+
+    <!-- FRONT SIDE -->
+    <div class="card-container">
+        <p class="card-label">Front</p>
+        <div class="card-front">
+            <div class="corner-accent top-left"></div>
+            <div class="corner-accent top-right"></div>
+            <div class="corner-accent bottom-left"></div>
+            <div class="corner-accent bottom-right"></div>
+
+            <div class="front-content">
+                <img src="images/logo.png" alt="Vinoteka 15 Milja" class="logo-image">
+                <p class="front-tagline">Premium Wine Selection</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- BACK SIDE -->
+    <div class="card-container">
+        <p class="card-label">Back</p>
+        <div class="card-back">
+            <div class="back-stripe"></div>
+            <div class="back-content">
+
+                <div class="back-header">
+                    <div>
+                        <div class="back-name">Vinoteka 15 Milja</div>
+                        <div class="back-title">Premium Wine Shop &bull; Loznica</div>
+                    </div>
+                    <img src="images/logo.png" alt="" class="back-logo-small">
+                </div>
+
+                <div class="back-divider"></div>
+
+                <div class="back-details">
+                    <!-- Phone -->
+                    <div class="detail-row">
+                        <div class="detail-icon">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+                            </svg>
+                        </div>
+                        <span class="detail-text">+381 63 367 514</span>
+                    </div>
+
+                    <!-- Email -->
+                    <div class="detail-row">
+                        <div class="detail-icon">
+                            <svg viewBox="0 0 24 24">
+                                <rect x="2" y="4" width="20" height="16" rx="2"/>
+                                <path d="M22 4l-10 8L2 4"/>
+                            </svg>
+                        </div>
+                        <span class="detail-text">vinoteka15milja@gmail.com</span>
+                    </div>
+
+                    <!-- Address -->
+                    <div class="detail-row">
+                        <div class="detail-icon">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <span class="detail-text">Žikice Jovanovića 9, 15300 Loznica</span>
+                    </div>
+
+                    <!-- Hours -->
+                    <div class="detail-row">
+                        <div class="detail-icon">
+                            <svg viewBox="0 0 24 24">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                        </div>
+                        <span class="detail-text">Pon–Pet: 09–20h &nbsp;|&nbsp; Sub: 09–16h</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <p class="print-info">
+        Standard business card size: <strong>3.5 × 2 inches</strong> (89 × 51 mm)<br>
+        For print, export as PDF with <strong>300 DPI</strong> and <strong>3mm bleed</strong>
+    </p>
+
+</body>
+</html>
